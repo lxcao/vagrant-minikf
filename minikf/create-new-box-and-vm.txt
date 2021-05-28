@@ -1,0 +1,12 @@
+vagrant box list
+vboxmanage list vms
+vagrant package --base minikf --output myminikf.box
+vagrant box add myminikf.box --name clingxin/myminikf
+vagrant box list
+cd ~/.vagrant.d/boxes   // you will find new box in there
+cd {original working directory}
+rm -fr myminikf.box   // or you can share this to team
+mkdir {new working directory} && cd {new working directory}
+vagrant init clingxin/myminikf  //create vm
+vim Vagrantfile   //modify this file
+vagrant up
