@@ -2,7 +2,8 @@
  * @Author: clingxin
  * @Date: 2021-05-28 19:34:16
  * @LastEditors: clingxin
- * @LastEditTime: 2021-05-28 19:35:11
+ * @LastEditTime: 2021-05-30 08:34:54
  * @FilePath: /vagrant/README.md
 -->
-Launch minikf in virturalbox which managed by vagrant
+- vgrant 101
+- Launch minikf in virturalbox which managed by vagrant
