@@ -2,7 +2,7 @@
  # @Author: clingxin
  # @Date: 2021-05-30 08:44:25
  # @LastEditors: clingxin
- # @LastEditTime: 2021-05-30 10:15:30
+ # @LastEditTime: 2021-05-31 09:31:47
  # @FilePath: /vagrant/vagrant101/scripts.sh
 ###
 cd vagrant101
@@ -34,6 +34,9 @@ vagrant ssh
     quit;
 
 ?? PHP install failed, no package found php7.2
-
+# resume after suspend on any directory, it works without provisioning
 vagrant suspend
 vagrant resume
+# add ssh username and password in Vagrantfile
+#only in the Vagrantfile folder, it works
+vagrant up --no-provision 50eea50
